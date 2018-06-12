@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto" rel="stylesheet">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>jQuery Data</title>
+    <link rel="icon" href="image/data.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="upper">
+            <h1>DEMO GALLERY</h1>
+            <hr>
+        </div>
+        <ul class="horizontalNavbar">
+            <li>
+                <a href="#" class="top all" data-target='1'>All</a>
+            </li>
+            <li>
+                <a href="#" class="top cities" data-target='2'>CITIES</a>
+            </li>
+            <li>
+                <a href="#" class="top nature" data-target='3'>NATURE</a>
+            </li>
+            <li>
+                <a href="#" class="top industrial" data-target='4'>INDUSTRIAL</a>
+            </li>
+            <li>
+                <a href="#" class="top daylight" data-target='5'>DAYLIGHT</a>
+            </li>
+            <li>
+                <a href="#" class="top nightspace" data-target='6'>NIGHTSCAPE</a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+
+        <div class="main">
+            <div class="mainDivs first" data-isoTop='1,2,4,6'>
+                <div class="number">1</div>
+                <div class="info">BUSY STREETS</div>
+            </div>
+            <div class="mainDivs second" data-isoTop='1,2,3,5'>
+                <div class="number">2</div>
+                <div class="info">LUMINOUS NIGHT</div>
+            </div>
+            <div class="mainDivs third" data-isoTop='1,3,6'>
+                <div class="number">3</div>
+                <div class="info">CITY WONDERS</div>
+            </div>
+            <div class="mainDivs fourth" data-isoTop='1,2,5'>
+                <div class="number">4</div>
+                <div class="info">IN PRODUCTION</div>
+            </div>
+            <div class="mainDivs fifth" data-isoTop='1,2,3,5'>
+                <div class="number">5</div>
+                <div class="info">INDUSTRIAL SITE</div>
+            </div>
+            <div class="mainDivs sixth" data-isoTop='1,2,4,5'>
+                <div class="number">6</div>
+                <div class="info">PEACEFUL LAKE</div>
+            </div>
+            <div class="mainDivs seventh" data-isoTop='1,3,6'>
+                <div class="number">7</div>
+                <div class="info">CITY LIGHTS</div>
+            </div>
+            <div class="mainDivs eights" data-isoTop='1,2,4'>
+                <div class="number">8</div>
+                <div class="info">DREAMHOUSE</div>
+            </div>
+            <div class="mainDivs nineth" data-isoTop='1,2,4,5'>
+                <div class="number">9</div>
+                <div class="info">RESTLESS MACHINES</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
